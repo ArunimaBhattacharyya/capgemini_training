@@ -9,6 +9,8 @@ public class Program1 {
 		res = "A" != "B"; // only '==' and '!=' works on string and boolean
 		System.out.println(10 > 20);
 		System.out.println(res);
+		
+		
 	}
 
 }

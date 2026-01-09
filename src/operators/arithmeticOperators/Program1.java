@@ -20,6 +20,7 @@ public class Program1 {
 		//modulus -> find remainder
 		int i = 5;
 		System.out.println(i % 2);
-	}
+		
+		System.out.println(10+"hello"+20+true);	}
 
 }
