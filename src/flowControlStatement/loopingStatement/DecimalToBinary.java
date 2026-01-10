@@ -12,7 +12,21 @@ public class DecimalToBinary {
 			binary = dig + binary;
 			d = d/2;
 		}
-		System.out.println(binary);
+		
+		int count = 0;
+		for(int i=0; i<binary.length(); i++) {
+			if(binary.charAt(i) == '1') {
+				count++;
+			}
+		}
+		
+		if(count % 2 == 0) {
+			System.out.println("It is evil");
+		} else {
+			System.out.println("It is not");
+		}
+//		System.out.println(binary);
+//		System.out.println(count);
 	}
 
 }
