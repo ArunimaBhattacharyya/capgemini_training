@@ -1,0 +1,20 @@
+package string;
+
+public class Regex {
+	public static void main(String[] args) {
+		System.out.println("a".matches("[abc]"));
+		System.out.println("d".matches("[^abc]"));
+		System.out.println("m".matches("[A-Z]"));
+		System.out.println("O".matches("[M-Z]"));
+		System.out.println("m".matches("[A-Z]"));
+		System.out.println("abc".matches("[a-z]+"));
+		System.out.println("abcABC".matches("[a-zA-Z]+"));
+		System.out.println("abcABC".matches("[A-Za-z]+"));
+		System.out.println("123".matches("[0-9]+"));
+		System.out.println("abc123AZW".matches("[a-zA-Z0-9]+"));
+		System.out.println("8".matches("[6-9]"));
+		System.out.println("7876543210".matches("[6-9][0-9]+"));
+	}
+
+}
+
