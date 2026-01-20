@@ -30,6 +30,7 @@ public class Test2 extends Test1{
 		System.out.println("Test2 main()");
 		System.out.println(a1);
 		System.out.println(obj.a2);
+//		System.out.println(obj.a2());
 	}
 
 
